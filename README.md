@@ -11,18 +11,20 @@ Here's the step-by-step process using the `.mdc` files in this repository:
 ### 1️⃣ Create a Froduct Requirement Document (FRD)
 
 In Cursor's Agent chat, initiate FRD creation:
-    ```
+
+    
     Use @create-frd.mdc
     Here's the feature I want to build: [Describe your feature in detail]
     Reference these files to help you: [Optional: @file1.py @file2.ts]
-    ```
+    
 
 ### 2️⃣ Generate Your Task List from the FRD
 
 In Cursor's Agent chat, use the FRD to create tasks:
-    ```
+
+    
     Now take @O1-My-Feature.md and create tasks using @create-tasks.mdc
-    ```
+    
 
 ### 3️⃣ Examine Your Task List
 
@@ -31,9 +33,10 @@ You'll now have a well-structured task list, often with tasks and sub-tasks. Tak
 ### 4️⃣ Instruct the AI to Work Through Tasks (and Mark Completion)
 
 In Cursor's Agent chat, tell the AI to start with the first task (e.g., `1.1`):
-    ```
+
+    
     Please start on task 1.1 and use @process-task-list.mdc
-    ```
+    
 
 ### 5️⃣ Review, Approve, and Progress ✅
 
